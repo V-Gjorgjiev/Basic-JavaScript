@@ -21,4 +21,4 @@ let pricePerPhone = 119.95;
 let taxRate = 0.05;
 let totalPrice = pricePerPhone * taxRate;
 let totalTaxPrice = totalPrice * 30;
-console.log(totalTaxPrice);
+console.log(totalTaxPrice); 
