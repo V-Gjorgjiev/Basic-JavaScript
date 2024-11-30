@@ -13,7 +13,7 @@ console.log(area);
 // Exercise 3
 let radius = 2;
 let pi = 3.14159265359
-let areaOfCircle = pi * Math.pow(radius, 2);
+let areaOfCircle = pi * radius * radius;
 console.log(areaOfCircle);
 
 // Exercise 4
