@@ -12,13 +12,16 @@ console.log(area);
 
 // Exercise 3
 let radius = 2;
-let pi = 3.14159265359
-let areaOfCircle = pi * radius * radius;
+let pi = 3.14159265359 // Could've used Math.PI
+let areaOfCircle = pi * radius * radius; // Could've used Math.PI ** radius
 console.log(areaOfCircle);
 
 // Exercise 4
 let pricePerPhone = 119.95;
 let taxRate = 0.05;
 let totalPrice = pricePerPhone * taxRate;
-let totalTaxPrice = totalPrice * 30;
-console.log(totalTaxPrice); 
+console.log(totalPrice); // Tax price per phone
+
+let phonePriceWithTax = pricePerPhone + totalPrice;
+let totalTaxPrice = phonePriceWithTax * 30;
+console.log(totalTaxPrice); // Total for all phones including tax price
