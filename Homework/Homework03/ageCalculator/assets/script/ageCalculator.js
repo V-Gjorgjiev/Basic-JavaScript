@@ -9,6 +9,7 @@ if (Number.isNaN(birthYear)) {
 function calculateAge(birthYear, currentYear) {
     let age = currentYear - birthYear;
     if (Number.isNaN(birthYear)) {
+        alert('Please enter valid birth year.');
     } else {
         return `You are ${age} years old.`;
     }
