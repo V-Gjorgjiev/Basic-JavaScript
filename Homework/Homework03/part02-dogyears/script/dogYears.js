@@ -1,6 +1,6 @@
 function ageConverter(year, sort) {
     if (Number.isNaN(year)) {
-        return 'Please enter age in numbers';
+        alert ('Please enter age in numbers');
     } else if (sort === "human") {
         let dogYears = year * 7;
         return `Your ${sort} years are equal to ${dogYears} in dog years.`;
